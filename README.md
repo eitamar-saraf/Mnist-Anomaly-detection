@@ -12,7 +12,7 @@ I used pre-trained VAE that has been trained on mnist dataset to generate new im
 
 In variational autoencoders, inputs are mapped to a probability distribution over latent vectors, and a latent vector is then sampled from that distribution. The decoder becomes more robust at decoding latent vectors as a result.
 
-So, if I will have data from different distributions, the VAE won't succeed to reconstruct the image. And my loss will be big.
+So, if I will have data from different distributions, the VAE won't succeed to reconstruct the image. And the loss will be big.
 
 Like that, I can find anomalies if their loss will be bigger than normal data.
 
